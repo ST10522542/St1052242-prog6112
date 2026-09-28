@@ -25,6 +25,9 @@ public class GamingConsoles {
        System.out.println("--------------------");
        System.out.println("GAMING CONSOLE REPORT");
        System.out.println("--------------------");
+        int highestTotal = 0;
+        System.out.printf("%-10s %-10s %-12s %-10s\n", "PS5","XBOX","Switch","Total");
+        System.out.println("-----------------------------------------------");
        
        
         for(int i=0; i<cities.length; i++){ 
